@@ -23,11 +23,11 @@ def main():
 
             
         screen.fill(color="black")
-        player.draw(screen)
+        player.draw(screen) 
         player.update(dt)
 
         pygame.display.flip()
-        dt = time.tick(60) / 1000
+        dt = time.tick(144) / 1000
         print(dt)
 
 
